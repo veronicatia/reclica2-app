@@ -1,0 +1,7 @@
+{
+  "name": "reclica2-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
