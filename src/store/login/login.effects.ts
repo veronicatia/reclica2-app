@@ -9,6 +9,7 @@ import { ParseSourceFile } from "@angular/compiler";
 
 @Injectable()
 export class LoginEffects {
+    register$: any;
 
     constructor(private actions$: Actions, private authService: AuthService) {
 

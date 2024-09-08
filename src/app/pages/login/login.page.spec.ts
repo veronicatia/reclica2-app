@@ -24,7 +24,7 @@ import { Observable, of } from 'rxjs';
 import { throwError } from 'rxjs';
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
-import { User } from 'src/app/model/User';
+import { User } from 'src/app/model/user/User';
 
 
 describe('LoginPage', () => {

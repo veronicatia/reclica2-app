@@ -7,7 +7,7 @@ import { LoginEffects } from "./login.effects";
 
 import { Observable, of, throwError } from "rxjs";
 import { recoverPassword, recoverPasswordSuccess, recoverPasswordFail, loginSuccess, loginFail, login } from "./login.actions";
-import { User } from "src/app/model/User";
+import { User } from "src/app/model/user/User";
 import { EffectsModule } from "@ngrx/effects";
 
 

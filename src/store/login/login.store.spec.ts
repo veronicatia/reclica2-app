@@ -4,7 +4,7 @@ import { loginReducer } from "./login.reducers";
 import { LoginState } from "./LoginState";
 
 import { loginFail, loginSuccess } from "./login.actions";
-import { User } from "src/app/model/User";
+import { User } from "src/app/model/user/User";
 
 describe("Login store", () => {
 
